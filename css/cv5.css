@@ -3,14 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    margin: 0 10px 0 10px;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    max-width: 900px;
 }
 
 .container{
-    margin-left: 200px;
-    margin-right: 200px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
 }
 
 .change{
@@ -32,7 +34,9 @@
 }
 
 .zoom{
-    height: 600px;
+    height: 50px;
+    padding-bottom: 100px;
+    padding-left: 30px;
 }
 
 .zoom p{
@@ -41,7 +45,6 @@
 
 .zoom img{
     width: 100px;
-    height: 110px;
 }
 
 .zoom img:hover{
@@ -77,19 +80,20 @@ a{
     align-items: center;
     background-color: #17abb3;
     height: 150px;
+    padding-right: 400px;
 }
 
 .zoom img{
-    width: 10px;
+    width: 100px;
     min-height: 10px;
     margin: 10px;
-    padding: 10px;
-    border-radius: 40px solid #f5f5f5;
+    border: 5px solid #f5f5f5;
+    border-radius: 60px;
 }
 
 .title-holder{
-    align-items: center;
-    margin-left: 500px;
+    align-items: right;
+    margin-left: 300px;
 }
 
 .name{
@@ -108,6 +112,7 @@ a{
    color: #f5f5f5;
    list-style: none; 
    display: flex;
+   padding-right: 200px;
 }
 
 .content-body{
@@ -138,14 +143,22 @@ a{
 
 .section-left .strong{
     font-weight: bold;
+    margin-right: 0;
+    padding-right: 40px;
+    letter-spacing: 3px;
 }
 
 .section-left .puces{
     list-style-type: square;
+    padding-left: 30px;
 }
 
 .section-left .star{
-    text-align: right;
+    text-align: left;
+}
+
+.section-left .list{
+    padding-left: 20px;
 }
 
 h2{
@@ -176,6 +189,10 @@ h4{
 .section-right{
     flex: 2;
     background-color: #f5f5f5;
+}
+
+.espace{
+    text-indent: 5%;
 }
 
 .section-right .wrapper{
@@ -210,6 +227,12 @@ h4{
     color: beige;
     align-items: center;
     display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer{
